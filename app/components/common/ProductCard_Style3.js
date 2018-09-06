@@ -22,6 +22,9 @@ class ProductCard_Style3 extends Component  {
       super(props);
   }
   render() {
+    // console.log(this.props.productImages);
+    // console.log('*******************************');
+    
     return (
       <TouchableOpacity onPress = {this.props.onPress}>
       <View style = {styles.productItem}>

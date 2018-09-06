@@ -3,6 +3,15 @@
 
     <item
         is-multidex="false"
+        jar="/home/techinfini/ReactNativeNewOne/New/React Native/eFashion UI/eFashion/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.44.3/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="af9665a44df26b4098e24c934c1109507845ef5e">
+        <dex dex="/home/techinfini/ReactNativeNewOne/New/React Native/eFashion UI/eFashion/android/app/build/intermediates/pre-dexed/debug/com.facebook.react-react-native-0.44.3_50ba42199d4a636313d0926dffccbe2baf23488e.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="/home/techinfini/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.4.1/c7c4f9e35c2fd5900da24f9872e3971801f08ce0/okhttp-3.4.1.jar"
         jumboMode="false"
         optimize="true"
@@ -75,6 +84,15 @@
     </item>
     <item
         is-multidex="false"
+        jar="/home/techinfini/ReactNativeNewOne/New/React Native/eFashion UI/eFashion/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.44.3/jars/libs/infer-annotations-1.5.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="dcac634e137395f79693ec760f081a86eb2bd84e">
+        <dex dex="/home/techinfini/ReactNativeNewOne/New/React Native/eFashion UI/eFashion/android/app/build/intermediates/pre-dexed/debug/infer-annotations-1.5_fb2c02f2e3d054af4776683b001116b6569a236c.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="/home/techinfini/ReactNativeNewOne/New/React Native/eFashion UI/eFashion/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/1.0.1/jars/classes.jar"
         jumboMode="false"
         optimize="true"
@@ -93,15 +111,6 @@
     </item>
     <item
         is-multidex="false"
-        jar="/home/techinfini/ReactNativeNewOne/New/React Native/eFashion UI/eFashion/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.44.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="af9665a44df26b4098e24c934c1109507845ef5e">
-        <dex dex="/home/techinfini/ReactNativeNewOne/New/React Native/eFashion UI/eFashion/android/app/build/intermediates/pre-dexed/debug/com.facebook.react-react-native-0.44.0_af6cf90cde12d38156c67148f83f5dcd30364630.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="/home/techinfini/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp-ws/3.4.1/8ace66ef7002d98f633377c9e67daeeb196d8c3b/okhttp-ws-3.4.1.jar"
         jumboMode="false"
         optimize="true"
@@ -117,15 +126,6 @@
         revision="23.0.1"
         sha1="5a61f17cd72e20aa4323cbf5f909b7c609619275">
         <dex dex="/home/techinfini/ReactNativeNewOne/New/React Native/eFashion UI/eFashion/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-drawee-1.0.1_7ff17452b195210bc2f3d44106cc8d819b41b5b7.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/techinfini/ReactNativeNewOne/New/React Native/eFashion UI/eFashion/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.44.0/jars/libs/infer-annotations-1.5.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="dcac634e137395f79693ec760f081a86eb2bd84e">
-        <dex dex="/home/techinfini/ReactNativeNewOne/New/React Native/eFashion UI/eFashion/android/app/build/intermediates/pre-dexed/debug/infer-annotations-1.5_ec0269f507d30ef40fec8815b90c9822377fb33e.jar" />
     </item>
     <item
         is-multidex="false"

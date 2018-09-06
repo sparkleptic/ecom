@@ -41,7 +41,7 @@ class CategoryTabRootScreen extends Component {
     render() {
         return (
           <ScrollView>
-            <Promotionbar />
+            {/* <Promotionbar /> */}
           <AccordionListView />
           </ScrollView>
         )

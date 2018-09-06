@@ -1,15 +1,15 @@
 [
     {
-        "merged": "/home/techinfini/ReactNativeNewOne/New/React Native/eFashion UI/eFashion/android/app/build/intermediates/res/merged/debug/layout/abc_screen_simple_overlay_action_mode.xml",
-        "source": "/home/techinfini/ReactNativeNewOne/New/React Native/eFashion UI/eFashion/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/layout/abc_screen_simple_overlay_action_mode.xml"
-    },
-    {
         "merged": "/home/techinfini/ReactNativeNewOne/New/React Native/eFashion UI/eFashion/android/app/build/intermediates/res/merged/debug/layout/abc_action_mode_close_item_material.xml",
         "source": "/home/techinfini/ReactNativeNewOne/New/React Native/eFashion UI/eFashion/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/layout/abc_action_mode_close_item_material.xml"
     },
     {
+        "merged": "/home/techinfini/ReactNativeNewOne/New/React Native/eFashion UI/eFashion/android/app/build/intermediates/res/merged/debug/layout/abc_screen_simple_overlay_action_mode.xml",
+        "source": "/home/techinfini/ReactNativeNewOne/New/React Native/eFashion UI/eFashion/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/layout/abc_screen_simple_overlay_action_mode.xml"
+    },
+    {
         "merged": "/home/techinfini/ReactNativeNewOne/New/React Native/eFashion UI/eFashion/android/app/build/intermediates/res/merged/debug/layout/fps_view.xml",
-        "source": "/home/techinfini/ReactNativeNewOne/New/React Native/eFashion UI/eFashion/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.44.0/res/layout/fps_view.xml"
+        "source": "/home/techinfini/ReactNativeNewOne/New/React Native/eFashion UI/eFashion/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.44.3/res/layout/fps_view.xml"
     },
     {
         "merged": "/home/techinfini/ReactNativeNewOne/New/React Native/eFashion UI/eFashion/android/app/build/intermediates/res/merged/debug/layout/abc_search_view.xml",
@@ -24,12 +24,12 @@
         "source": "/home/techinfini/ReactNativeNewOne/New/React Native/eFashion UI/eFashion/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/layout/notification_template_part_chronometer.xml"
     },
     {
-        "merged": "/home/techinfini/ReactNativeNewOne/New/React Native/eFashion UI/eFashion/android/app/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view_list_item.xml",
-        "source": "/home/techinfini/ReactNativeNewOne/New/React Native/eFashion UI/eFashion/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/layout/abc_activity_chooser_view_list_item.xml"
-    },
-    {
         "merged": "/home/techinfini/ReactNativeNewOne/New/React Native/eFashion UI/eFashion/android/app/build/intermediates/res/merged/debug/layout/select_dialog_singlechoice_material.xml",
         "source": "/home/techinfini/ReactNativeNewOne/New/React Native/eFashion UI/eFashion/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/layout/select_dialog_singlechoice_material.xml"
+    },
+    {
+        "merged": "/home/techinfini/ReactNativeNewOne/New/React Native/eFashion UI/eFashion/android/app/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view_list_item.xml",
+        "source": "/home/techinfini/ReactNativeNewOne/New/React Native/eFashion UI/eFashion/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/layout/abc_activity_chooser_view_list_item.xml"
     },
     {
         "merged": "/home/techinfini/ReactNativeNewOne/New/React Native/eFashion UI/eFashion/android/app/build/intermediates/res/merged/debug/layout/abc_action_bar_up_container.xml",
@@ -45,7 +45,7 @@
     },
     {
         "merged": "/home/techinfini/ReactNativeNewOne/New/React Native/eFashion UI/eFashion/android/app/build/intermediates/res/merged/debug/layout/redbox_item_title.xml",
-        "source": "/home/techinfini/ReactNativeNewOne/New/React Native/eFashion UI/eFashion/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.44.0/res/layout/redbox_item_title.xml"
+        "source": "/home/techinfini/ReactNativeNewOne/New/React Native/eFashion UI/eFashion/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.44.3/res/layout/redbox_item_title.xml"
     },
     {
         "merged": "/home/techinfini/ReactNativeNewOne/New/React Native/eFashion UI/eFashion/android/app/build/intermediates/res/merged/debug/layout/abc_action_bar_view_list_nav_layout.xml",
@@ -53,11 +53,11 @@
     },
     {
         "merged": "/home/techinfini/ReactNativeNewOne/New/React Native/eFashion UI/eFashion/android/app/build/intermediates/res/merged/debug/layout/dev_loading_view.xml",
-        "source": "/home/techinfini/ReactNativeNewOne/New/React Native/eFashion UI/eFashion/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.44.0/res/layout/dev_loading_view.xml"
+        "source": "/home/techinfini/ReactNativeNewOne/New/React Native/eFashion UI/eFashion/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.44.3/res/layout/dev_loading_view.xml"
     },
     {
         "merged": "/home/techinfini/ReactNativeNewOne/New/React Native/eFashion UI/eFashion/android/app/build/intermediates/res/merged/debug/layout/redbox_view.xml",
-        "source": "/home/techinfini/ReactNativeNewOne/New/React Native/eFashion UI/eFashion/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.44.0/res/layout/redbox_view.xml"
+        "source": "/home/techinfini/ReactNativeNewOne/New/React Native/eFashion UI/eFashion/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.44.3/res/layout/redbox_view.xml"
     },
     {
         "merged": "/home/techinfini/ReactNativeNewOne/New/React Native/eFashion UI/eFashion/android/app/build/intermediates/res/merged/debug/layout/notification_template_lines.xml",
@@ -149,7 +149,7 @@
     },
     {
         "merged": "/home/techinfini/ReactNativeNewOne/New/React Native/eFashion UI/eFashion/android/app/build/intermediates/res/merged/debug/layout/redbox_item_frame.xml",
-        "source": "/home/techinfini/ReactNativeNewOne/New/React Native/eFashion UI/eFashion/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.44.0/res/layout/redbox_item_frame.xml"
+        "source": "/home/techinfini/ReactNativeNewOne/New/React Native/eFashion UI/eFashion/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.44.3/res/layout/redbox_item_frame.xml"
     },
     {
         "merged": "/home/techinfini/ReactNativeNewOne/New/React Native/eFashion UI/eFashion/android/app/build/intermediates/res/merged/debug/layout/select_dialog_multichoice_material.xml",

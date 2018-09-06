@@ -18,14 +18,15 @@ import ProductDescription from './ProductDescription'
 export default class ProductDetailModal extends Component  {
   constructor(props) {
         super(props)
-
   }
   render() {
+    // productSlug
+    // console.log(this.props.productSlug);
     return (
       <ScrollView style = {{flex: 1}}>
         <InfoModal />
           <Slider />
-        <ProductDescription />
+        <ProductDescription productSlug={this.props.productSlug}/>
       </ScrollView>
 
     )

@@ -1,0 +1,4 @@
+#Thu Sep 06 19:37:18 IST 2018
+base.0=/home/techinfini/ReactNativeNewOne/New/React Native/eFashion UI/eFashion/android/app/build/intermediates/transforms/dex/release/folders/1000/1f/main
+renamed.0=classes.dex
+file.0=/home/techinfini/ReactNativeNewOne/New/React Native/eFashion UI/eFashion/android/app/build/intermediates/transforms/dex/release/folders/1000/1f/main/classes.dex

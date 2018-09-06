@@ -112,7 +112,7 @@ export default class RootRouter extends React.Component {
                                                 titleStyle={{ color: '#fff' }}
                                                 leftButtonIconStyle={{ tintColor: 'white' }}
                                                 iconName="tag"
-                                                hideNavBar={true}
+                                                hideNavBar={false}
                                                 navigationBarStyle={{
                                                         flex: 1,
                                                         borderBottomWidth: 0,
@@ -124,7 +124,7 @@ export default class RootRouter extends React.Component {
                                         >
                                                 <Scene key="CategoryTabRootScreen"
                                                         component={CategoryTabRootScreen}
-                                                        navBar={HeaderNew}
+                                                        navBar={NavBarSearchBox}
                                                 />
                                                 <Scene key="Category"
                                                         component={Category}

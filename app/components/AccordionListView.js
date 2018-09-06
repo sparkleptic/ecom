@@ -111,23 +111,10 @@ export default class AccordionView extends Component {
   }
 
   _renderHeader(section, i, isActive) {
-
-    if (section.subCollection) {
-      return (
-        <Animatable.View duration={400} style={[styles.header, isActive ? styles.active : styles.inactive]} transition="backgroundColor">
-          <View style = {styles.headerView}>
-          </View>
-          <View>
-            <ResponsiveImage style={styles.collectionImage} source={{ uri: 'https://img.romwe.com/images/romwe.com/1487302743105300623.jpg'}} />
-            {/* <Text>{section.name}</Text> */}
-          </View>
-        </Animatable.View>
-      );
-    }
-    else {
       return (
         <View>
-          <TouchableOpacity onPress = {() => Actions.Category(passProps = { title: section.name }) }>
+          {section.name !== 'Uncategorized' ? 
+          <TouchableOpacity onPress = {() => Actions.Category(passProps = { title: section.name , categoryId : section.id }) }>
             <View style = {styles.headerView}>
             </View>
             <View>
@@ -135,24 +122,14 @@ export default class AccordionView extends Component {
               <ResponsiveImage style={styles.collectionImage} source={{ uri: 'https://img.romwe.com/images/romwe.com/1487302743105300623.jpg'}} initWidth={initWidth} initHeight={initHeight}/>
             </View>
           </TouchableOpacity>
+            : <Text></Text>}
         </View>
       );
-    }
-
   }
   _renderContent(section, i, isActive) {
-    if (section.subCollection) {
-      _subCollection = section.subCollection;
-      console.log(_subCollection);
-      return <Animatable.View duration={400}  style={[styles.content, isActive ? styles.active : styles.inactive]} transition="backgroundColor">
-        <CollectionListView _data = {_subCollection}/>
-      </Animatable.View>
-    }
-    else {
       _subCollection = "";
       console.log("None subCollection");
       return <View />
-    }
   }
 
   render() {
