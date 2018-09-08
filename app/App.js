@@ -11,7 +11,7 @@ import {
         NavBarSearchBox,
         SearchBtnIcon,
         SearchPage,
-        HeaderNew,Promotionbar
+        HeaderNew, Promotionbar
 } from './components/common'
 
 //Scenes
@@ -41,6 +41,7 @@ import { CartDefault, ShippingInfoModal } from './screens/Cart'
 import SignInScreen from './screens/Account/SignInScreen'
 import RegisterScreen from './screens/Account/RegisterScreen'
 import AccountDetail from './screens/Account/AccountDetail'
+import SideMenuDrawer from './screens/SideMenuDrawer'
 
 //import TabIcon from './components/common/TabIcon'
 
@@ -96,13 +97,13 @@ export default class RootRouter extends React.Component {
                                                 />
                                                 <Scene key="ProductDetailModal"
                                                         passProps={true}
-                                                        backTitle="X"
-                                                        hideBackImage={true}
+                                                        // backTitle="X"
+                                                        hideBackImage={false}
                                                         component={ProductDetailModal}
                                                         title="Product"
                                                         direction="vertical"
                                                         onBack={() => Actions.pop()}
-                                                        hideNavBar={hideNav}
+                                                        hideNavBar={false}
                                                         hideTabBar={true}
                                                 />
                                         </Scene>
@@ -242,6 +243,14 @@ export default class RootRouter extends React.Component {
                                         animation={"fade"}
                                         duration={0}
                                         navBar={SearchBoxWithBackBtn}
+                                />
+                                <Scene key="SideMenuDrawer"
+                                        component={SideMenuDrawer}
+                                        drawer={true}
+                                        // hideTabBar={false}
+                                        // animation={"fade"}
+                                        // duration={0}
+                                        // navBar={DrawerContent}
                                 />
                         </Scene>
                 </Router>;

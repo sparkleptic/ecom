@@ -12,6 +12,7 @@ import {
 var { height, width } = Dimensions.get('window');
 import Icon from 'react-native-vector-icons/SimpleLineIcons';
 
+import { Actions } from 'react-native-router-flux';
 
 class Promotionbar extends Component {
 
@@ -32,11 +33,11 @@ class Promotionbar extends Component {
                     />
                     </View>
                     <View style={styles.equalWidth2}>
-                        <Icon name="basket-loaded" className="icon-basket-loaded" size={20} color='#fff' />
+                        <Icon name="basket-loaded" className="icon-basket-loaded" size={20} color='#fff' onPress={() => Actions.CartTabRootScreen(passProps = { title: 'Drawer' })} />
                     </View>
                 </View>
                 <View style={styles.containerStyle3}>
-                    <Icon name="menu" className="icon-menu" size={14} color='#fff' />
+                    <Icon name="menu" className="icon-menu" size={14} color='#fff' onPress={() => Actions.SideMenuDrawer(passProps = { })}/>
                     <Text style={styles.innerText2}>Shop</Text>
                     <Text> </Text>
                 </View>

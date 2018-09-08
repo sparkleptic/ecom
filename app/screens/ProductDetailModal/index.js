@@ -7,6 +7,7 @@ import {
   Image,
   Text
 } from 'react-native';
+
 import { Actions } from 'react-native-router-flux';
 const loading = {uri: "https://simpletexting.com/wp-content/themes/new_simpletexting/images/gif/loading-ttcredesign.gif"}
 import Swiper from 'react-native-swiper';
@@ -20,12 +21,10 @@ export default class ProductDetailModal extends Component  {
         super(props)
   }
   render() {
-    // productSlug
-    // console.log(this.props.productSlug);
     return (
       <ScrollView style = {{flex: 1}}>
-        <InfoModal />
-          <Slider />
+        <InfoModal productSlug={this.props.productSlug}/>
+        <Slider productSlug={this.props.productSlug}/>
         <ProductDescription productSlug={this.props.productSlug}/>
       </ScrollView>
 

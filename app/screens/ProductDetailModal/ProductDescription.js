@@ -20,9 +20,6 @@ const initHeight = otherColoursContainerHeight;
 
 const list = [
   {
-    name: 'Description'
-  },
-  {
     name: 'Size Charts'
   },
   {
