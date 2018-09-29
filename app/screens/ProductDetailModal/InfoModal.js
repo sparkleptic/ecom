@@ -6,6 +6,9 @@ import {
   Button
 } from './../../components/common'
 import Collapsible from 'react-native-collapsible';
+import HTMLView from 'react-native-htmlview';
+
+
 
 var { height, width } = Dimensions.get('window');
 var _productInfo = require('./../../database/ProductInfo.json');
@@ -111,7 +114,11 @@ export default class InfoModal extends Component {
                 <Text style={styles.productName}>{this.state.productdata.name}</Text>
                 <Text style={styles.productRef}>{this.state.productdata.sku}</Text>
                 <Text style={styles.productColor}>{productInfo.productColor}</Text>
-                <Text style={styles.productDescription}>{this.state.productdata.description}</Text>
+                {/* <Text style={styles.productDescription}>{this.state.productdata.description}</Text> */}
+                <HTMLView
+                  value={this.state.productdata.description}
+                  stylesheet={styles}
+                />
               </View>
               <View style={styles.productMoreInfoContainer}>
                 <View style={styles.productMoreInfoRow}>

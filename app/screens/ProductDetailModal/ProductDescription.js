@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { View, Text, TouchableOpacity, Dimensions } from 'react-native';
+import { View, Text, TouchableOpacity, Dimensions, AsyncStorage } from 'react-native';
 import oauthSignature from 'oauth-signature';
 import axios from 'axios';
 import {
@@ -7,8 +7,9 @@ import {
 } from './../../components/common'
 import { Actions } from 'react-native-router-flux';
 import { List, ListItem } from 'react-native-elements'
+import HTMLView from 'react-native-htmlview';
 
-var {height, width} = Dimensions.get('window');
+var { height, width } = Dimensions.get('window');
 
 const footerContainerHeight = 150;
 const productOrderInfoContainerHeight = 60;
@@ -32,11 +33,12 @@ const list = [
 
 
 
-export default class ProductDescription extends Component  {
+export default class ProductDescription extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      productdata:''
+      productdata: '',
+      demoAsync: []
     }
   }
 
@@ -59,6 +61,13 @@ export default class ProductDescription extends Component  {
       .catch(function (error) {
         console.log(error);
       });
+
+
+    AsyncStorage.getItem("productsCart_N").then((value) => {
+      // console.log(value);
+
+      this.setState({ demoAsync: value });
+    }).done();
   }
 
   toQueryString(obj) {
@@ -97,74 +106,135 @@ export default class ProductDescription extends Component  {
     let final_request_uri_str = url + '?' + oauth_args;
     return final_request_uri_str;
   }
+  addToCart(data_pro) {
+    // console.log(data);
+    // // AsyncStorage.setItem('data', JSON.stringify(data));
 
+
+
+    // AsyncStorage.getItem('data') != null ?
+    //   AsyncStorage.mergeItem('data', JSON.stringify(data), () => {
+    //     AsyncStorage.getItem('data', (err, result) => {
+    //       console.log(result);
+    //     });
+    //   })
+    // :
+    //   AsyncStorage.setItem('data', JSON.stringify(data), () => {
+    //     AsyncStorage.getItem('data', (err, result) => {
+    //       console.log(result);
+    //     });
+    //   });
+    // console.log(data_pro.id);
+
+    data = {
+      quantity: '1',
+      id: data_pro.id,
+      price: data_pro.price,
+      title: data_pro.name,
+      image: data_pro.images['0']['src']
+    }
+
+
+    if ((this.state.demoAsync !== null) && (this.state.demoAsync !== '') && this.state.demoAsync.length > 0) {
+      alert('if');
+
+      let arrdemo = new Array()
+      let pushdemo = arrdemo.push(data)
+
+      let convParse = this.state.demoAsync
+      function removeDuplicates(arr, prop) {
+        var obj = {};
+        for (var i = 0, len = arr.length; i < len; i++) {
+          if (!obj[arr[i][prop]]) obj[arr[i][prop]] = arr[i];
+        }
+        var newArr = [];
+        for (var key in obj) newArr.push(obj[key]);
+        return newArr;
+      }
+      var finalArray = removeDuplicates(arrdemo.concat(JSON.parse(convParse)), 'id')
+      console.log(finalArray)
+      AsyncStorage.setItem('productsCart_N', JSON.stringify(finalArray));
+    } else {
+      alert('else');
+      let arrdemo = new Array()
+      let pushdemo = arrdemo.push(data)
+      AsyncStorage.setItem('productsCart_N', JSON.stringify(arrdemo));
+    }
+
+    // this.state.navigate.navigate('CartPage')
+
+
+  }
 
   render() {
-    
+
     const {
-            footerContainer,
-            productOrderInfoContainer,
-            otherColoursContainer,
-            otherColoursImageStyle,
-            productPriceContainer,
-            productPriceIns,
-            productPriceDel,
-            CartButtonContainer,
-            buttonStyle,
-            buttonName
-          } = styles;
+      footerContainer,
+      productOrderInfoContainer,
+      otherColoursContainer,
+      otherColoursImageStyle,
+      productPriceContainer,
+      productPriceIns,
+      productPriceDel,
+      CartButtonContainer,
+      buttonStyle,
+      buttonName
+    } = styles;
     return (
-      this.state.productdata == '' ? 
-      <View></View>
-      :
-      <View style = {footerContainer}>
-        <View style = {productOrderInfoContainer} >
-          <View style = {styles.productNameWrapStyle}>
-            <Text style = {styles.productNameStyle}>
-              {this.state.productdata.name}
-            </Text>
-            <Text style = {styles.ProductDescStyle}>
-                {this.state.productdata.short_description}
-            </Text>
-          </View>
-          <View style = {productPriceContainer}>
+      this.state.productdata == '' ?
+        <View></View>
+        :
+        <View style={footerContainer}>
+          <View style={productOrderInfoContainer} >
+            <View style={styles.productNameWrapStyle}>
+              <Text style={styles.productNameStyle}>
+                {this.state.productdata.name}
+              </Text>
+              <HTMLView
+                value={this.state.productdata.short_description}
+                stylesheet={styles}
+              />
+            </View>
+            <View style={productPriceContainer}>
               <Text style={productPriceDel}>{this.state.productdata.regular_price} </Text>
               <Text style={productPriceIns}>{this.state.productdata.price} </Text>
+            </View>
           </View>
+          <View style={styles.productDescriptionWrapStyle}>
+            <HTMLView
+              value={this.state.productdata.description}
+              stylesheet={styles}
+            />
+          </View>
+          <Button buttonName="ADD TO CART"
+            buttonNameStyle={{ color: '#27AE60', fontWeight: 'bold' }}
+            buttonStyle={{ height: 40, borderColor: '#27AE60', borderWidth: 1 }}
+            buttonContainerStyle={{ padding: 10 }}
+            onPress={() => this.addToCart(this.state.productdata)}
+          />
+          <Button buttonName="CHOOSE COLOR"
+            buttonNameStyle={{ color: '#bbb', fontWeight: 'bold' }}
+            buttonStyle={{ height: 40, borderColor: '#ccc', borderWidth: 1 }}
+            buttonContainerStyle={{ padding: 10 }}
+          />
+          <Button buttonName="CHOOSE SIZE"
+            buttonNameStyle={{ color: '#bbb', fontWeight: 'bold' }}
+            buttonStyle={{ height: 40, borderColor: '#ccc', borderWidth: 1 }}
+            buttonContainerStyle={{ padding: 10 }}
+          />
+          <List containerStyle={{ marginLeft: 10, marginRight: 10, padding: 0, borderTopWidth: 1, borderColor: '#eee', borderBottomWidth: 0 }}>
+            {
+              list.map((l, i) => (
+                <ListItem
+                  key={i}
+                  title={l.name}
+                  titleStyle={{ fontSize: 16 }}
+                  onPress={() => console.log('Pressed')}
+                />
+              ))
+            }
+          </List>
         </View>
-        <View style = {styles.productDescriptionWrapStyle}>
-          <Text>
-              {this.state.productdata.description} 
-          </Text>
-        </View>
-        <Button buttonName = "ADD TO CART"
-                buttonNameStyle = {{color: '#27AE60', fontWeight: 'bold'}}
-                buttonStyle = {{height: 40, borderColor: '#27AE60', borderWidth: 1}}
-                buttonContainerStyle = {{padding: 10}}
-         />
-         <Button  buttonName = "CHOOSE COLOR"
-                  buttonNameStyle = {{color: '#bbb', fontWeight: 'bold'}}
-                  buttonStyle = {{height: 40, borderColor: '#ccc', borderWidth: 1}}
-                  buttonContainerStyle = {{padding: 10}}
-         />
-         <Button  buttonName = "CHOOSE SIZE"
-                  buttonNameStyle = {{color: '#bbb', fontWeight: 'bold'}}
-                  buttonStyle = {{height: 40, borderColor: '#ccc', borderWidth: 1}}
-                  buttonContainerStyle = {{padding: 10}}
-         />
-         <List containerStyle={{marginLeft: 10,marginRight: 10,padding: 0, borderTopWidth: 1,borderColor: '#eee', borderBottomWidth: 0}}>
-          {
-            list.map((l, i) => (
-              <ListItem
-                key={i}
-                title={l.name}
-                titleStyle = {{fontSize: 16}}
-                onPress = {()=> console.log('Pressed')}
-              />
-            ))
-          }
-        </List>
-      </View>
     )
   }
 }
