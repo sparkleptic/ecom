@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { View, Text, TouchableOpacity, Dimensions, ListView } from 'react-native';
+import { View, Text, TouchableOpacity, Dimensions, ListView, Share } from 'react-native';
 import oauthSignature from 'oauth-signature';
 import axios from 'axios';
 import {
@@ -91,6 +91,15 @@ export default class InfoModal extends Component {
     return final_request_uri_str;
   }
 
+  shareProduct(data){
+
+		Share.share(
+			{
+        message: "Name:" + data + "\n" + "Type:" + data ,
+        url: Share
+			}).then(result => console.log(result)).catch(errorMsg => console.log(errorMsg));
+
+  }
   render() {
     // console.log(this.state.productdata);
 
@@ -121,8 +130,8 @@ export default class InfoModal extends Component {
                 />
               </View>
               <View style={styles.productMoreInfoContainer}>
-                <View style={styles.productMoreInfoRow}>
-                  <TouchableOpacity>
+                <View style={styles.productMoreInfoRowShare}>
+                  <TouchableOpacity onPress={() => this.shareProduct('Ecom Fashion')}>
                     <View>
                       <Text style={styles.productMoreInfoRowText}>Share</Text>
                     </View>
@@ -203,5 +212,13 @@ const styles = {
   },
   productMoreInfoRowText: {
     fontSize: 15
+  },
+  productMoreInfoRowShare:{
+    justifyContent: 'center',
+    height: 45,
+    padding: 16,
+    borderWidth: 0.5,
+    borderColor: "#f2f2f2",
+    backgroundColor:'#E3A0A3'
   }
 }

@@ -31,6 +31,8 @@ import {
   ProductCard_Style1
 } from './../../components/common';
 
+let totalPrice = 0;
+let quantity_product = 0;
 class CartDefault extends Component {
 
   constructor(props) {
@@ -39,12 +41,15 @@ class CartDefault extends Component {
       showPicker: false,
       qtyCurrent: 1,
       _qty: 1,
-      demoAsync: []
+      demoAsync: [],
+      totalPrice:0
     };
   }
 
 
-  componentDidMount() {
+  componentDidMount = () => {
+    totalPrice = 0;
+    quantity_product = 0;
     AsyncStorage.getItem("productsCart_N").then((value) => {
       value !== null ?
         this.setState({ demoAsync: JSON.parse(value) })
@@ -53,7 +58,7 @@ class CartDefault extends Component {
     }).done();
   }
 
-  componentWillMount() {
+  componentWillMount = () =>{
     AsyncStorage.getItem("productsCart_N").then((value) => {
       value !== null ?
         this.setState({ demoAsync: JSON.parse(value) })
@@ -63,7 +68,7 @@ class CartDefault extends Component {
     LayoutAnimation.easeInEaseOut();
   }
 
-  changeStatePicker(value) {
+  changeStatePicker = (value) =>{
     LayoutAnimation.easeInEaseOut();
     this.setState({ showPicker: !this.state.showPicker });
     if (value) {
@@ -71,10 +76,17 @@ class CartDefault extends Component {
     }
 
   }
+
+  _removeItem = () =>{
+    alert();
+  }
+
   onValueChangePicker(qty) {
     this.setState({ _qty: qty })
   }
   render() {
+    totalPrice = 0;
+    quantity_product = 0;
     return (
       <View style={styles.container}>
         {this.state.showPicker ? <View style={styles.overlay} /> : <View />}
@@ -117,9 +129,10 @@ class CartDefault extends Component {
 
           {this.state.demoAsync.length > 0 ?
             this.state.demoAsync.map((data, i) => {
+              totalPrice = parseInt(data.price) + parseInt(totalPrice)
+              quantity_product = parseInt(data.quantity) + parseInt(quantity_product)
               return (
-
-
+                <View>
                 <ProductCard_Style1
                   key={i}
                   productName={data.title}
@@ -130,7 +143,10 @@ class CartDefault extends Component {
                   productImages={data.image}
                   onPress={() => this.changeStatePicker()}
                 />
-
+                <Button onPress={() => this._removeItem(i)} style={{ width: 80 }}>
+                  <Text>Remove</Text>
+                </Button>
+                </View>
               )
             }) :
             <View>
@@ -147,16 +163,16 @@ class CartDefault extends Component {
         <View style={styles.subTotalContainerStyle}>
           <View style={styles.subTotalStyle}>
             <Text style={styles.subTotalTitleStyle}>
-              Subtotal (2 items):
+              Subtotal ({quantity_product} items):
                     </Text>
             <Text style={styles.subTotalPriceStyle}>
-              $56
+              {totalPrice}
                     </Text>
           </View>
           <Button buttonName="PROCEED TO CHECKOUT"
             buttonStyle={{ height: 35, width: 160, borderRadius: 4, borderWidth: 0, backgroundColor: '#4CAF50', marginTop: 20, marginBottom: 20 }}
             buttonNameStyle={{ fontSize: 11, color: '#fff' }}
-            onPress={() => Actions.SignInScreen()}
+            onPress={() => Actions.Checkout()}
           />
         </View>
       </View>

@@ -12,6 +12,186 @@
     </item>
     <item
         is-multidex="false"
+        jar="/home/techinfini/ReactNativeNewOne/New/React Native/eFashion UI/eFashion/android/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.22.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="d5cbc9214ee567ea6ef56fb2707d48e58d240fc2">
+        <dex dex="/home/techinfini/ReactNativeNewOne/New/React Native/eFashion UI/eFashion/android/app/build/intermediates/pre-dexed/debug/com.facebook.android-facebook-android-sdk-4.22.1_6db04df62ec39f703b4c690508cb35a5d5ff3591.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/techinfini/ReactNativeNewOne/New/React Native/eFashion UI/eFashion/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/10.2.4/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="9ed08fab37c3a572da1d9ed2bf2e36c8d3e2bc48">
+        <dex dex="/home/techinfini/ReactNativeNewOne/New/React Native/eFashion UI/eFashion/android/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-basement-10.2.4_d0d41f9949c0a8069fd8dbfe72142bd556ba0a96.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/techinfini/ReactNativeNewOne/New/React Native/eFashion UI/eFashion/android/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.0/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="ee5faf4dee5b6a4364bf51587871047dde7c703a">
+        <dex dex="/home/techinfini/ReactNativeNewOne/New/React Native/eFashion UI/eFashion/android/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.0_3a12fa1b4d19d97bd6ac0c82b7034824499996dc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/techinfini/ReactNativeNewOne/New/React Native/eFashion UI/eFashion/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fresco/1.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="cf836a435a496eb22ff2aa69aa1e619462549f81">
+        <dex dex="/home/techinfini/ReactNativeNewOne/New/React Native/eFashion UI/eFashion/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-fresco-1.0.1_fa01ce8585bad3441eda9b9c14b51fdfa869f2f6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/techinfini/ReactNativeNewOne/New/React Native/eFashion UI/eFashion/android/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="d29714cc76b38157e3cbd034c66e1ec808eb4c19">
+        <dex dex="/home/techinfini/ReactNativeNewOne/New/React Native/eFashion UI/eFashion/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-25.0.0_5c652d7400d250ff3240a3ee0e5e4f1d83aabeb6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/techinfini/ReactNativeNewOne/New/React Native/eFashion UI/eFashion/android/app/build/intermediates/exploded-aar/com.google.maps.android/android-maps-utils/0.5/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="e41a052c714bf67f743c22ed74153422ad773f88">
+        <dex dex="/home/techinfini/ReactNativeNewOne/New/React Native/eFashion UI/eFashion/android/app/build/intermediates/pre-dexed/debug/com.google.maps.android-android-maps-utils-0.5_493c2a1062b18325fbb459f4d97e80185026a51c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/techinfini/ReactNativeNewOne/New/React Native/eFashion UI/eFashion/android/app/build/intermediates/exploded-aar/com.android.support/customtabs/25.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="94ba691efc31bf53264db0716d9c9ec03843ea31">
+        <dex dex="/home/techinfini/ReactNativeNewOne/New/React Native/eFashion UI/eFashion/android/app/build/intermediates/pre-dexed/debug/com.android.support-customtabs-25.0.0_a9f60c7dfef1d35d12ad4ffc90b1ccb4c1f94ac4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/techinfini/ReactNativeNewOne/New/React Native/eFashion UI/eFashion/android/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="07daa0b6e1d455c82a38422ffe287c18823d339a">
+        <dex dex="/home/techinfini/ReactNativeNewOne/New/React Native/eFashion UI/eFashion/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-25.0.0_1d0bff1879a50dfbed2817e001c6f12fc7c873d4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/techinfini/ReactNativeNewOne/New/React Native/eFashion UI/eFashion/android/app/build/intermediates/exploded-aar/com.facebook.fresco/drawee/1.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="5a61f17cd72e20aa4323cbf5f909b7c609619275">
+        <dex dex="/home/techinfini/ReactNativeNewOne/New/React Native/eFashion UI/eFashion/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-drawee-1.0.1_7ff17452b195210bc2f3d44106cc8d819b41b5b7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/techinfini/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-tasks/1.4.0/d85884acf6810a3bbbecb587f239005cbc846dc4/bolts-tasks-1.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="/home/techinfini/ReactNativeNewOne/New/React Native/eFashion UI/eFashion/android/app/build/intermediates/pre-dexed/debug/bolts-tasks-1.4.0_93d12ca6218bae4230ddd3d6cb4a5e5b10798a65.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/techinfini/ReactNativeNewOne/New/React Native/eFashion UI/eFashion/android/app/build/intermediates/exploded-aar/com.facebook.soloader/soloader/0.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="8f615bca00639150c9eb6175d4b5471193f70794">
+        <dex dex="/home/techinfini/ReactNativeNewOne/New/React Native/eFashion UI/eFashion/android/app/build/intermediates/pre-dexed/debug/com.facebook.soloader-soloader-0.1.0_bfbda35c7f37b0b8cba359361e78bfa3300ee4ba.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/techinfini/ReactNativeNewOne/New/React Native/eFashion UI/eFashion/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.2.4/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="dd1d0d84da2cff18f741c63a9c3af7d9aa89fdd6">
+        <dex dex="/home/techinfini/ReactNativeNewOne/New/React Native/eFashion UI/eFashion/android/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-base-10.2.4_d11c437a73cbbde6f57af4b54fc129fad8846831.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/techinfini/ReactNativeNewOne/New/React Native/eFashion UI/eFashion/android/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="26674000177e45447a0326a6ad84612761199a13">
+        <dex dex="/home/techinfini/ReactNativeNewOne/New/React Native/eFashion UI/eFashion/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-25.0.0_244d2def6a4107b3bb375e86cab511e1fe8ef7ec.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/techinfini/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.9.0/f824591a0016efbaeddb8300bee54832a1398cfa/okio-1.9.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="f824591a0016efbaeddb8300bee54832a1398cfa">
+        <dex dex="/home/techinfini/ReactNativeNewOne/New/React Native/eFashion UI/eFashion/android/app/build/intermediates/pre-dexed/debug/okio-1.9.0_3ec4a9637e7e87f17de084653d5b6fb0cee046d5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/techinfini/ReactNativeNewOne/New/React Native/eFashion UI/eFashion/android/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.0/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="f2e3b9bc1ec25f652e8007ce7774c991e38f6a00">
+        <dex dex="/home/techinfini/ReactNativeNewOne/New/React Native/eFashion UI/eFashion/android/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.0_c31b71e7d2b721d8baf5108e5522e6e937eb0d3b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/techinfini/ReactNativeNewOne/New/React Native/eFashion UI/eFashion/android/app/build/intermediates/exploded-aar/eFashion/react-native-vector-icons/unspecified/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="1f32d248ec690bd1fca0677ed1ce2fcc993ec0b9">
+        <dex dex="/home/techinfini/ReactNativeNewOne/New/React Native/eFashion UI/eFashion/android/app/build/intermediates/pre-dexed/debug/eFashion-react-native-vector-icons-unspecified_9e90e5e8b4136d1d9709db61dd37d66f2fd8725d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/techinfini/ReactNativeNewOne/New/React Native/eFashion UI/eFashion/android/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/25.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="8a372c4191f80489770a231f7be4820b204b886a">
+        <dex dex="/home/techinfini/ReactNativeNewOne/New/React Native/eFashion UI/eFashion/android/app/build/intermediates/pre-dexed/debug/com.android.support-cardview-v7-25.0.0_9c3705422d62ae544e89740812efec581618940c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/techinfini/ReactNativeNewOne/New/React Native/eFashion UI/eFashion/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/home/techinfini/ReactNativeNewOne/New/React Native/eFashion UI/eFashion/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-25.0.0_151b7b885863c93cd6bd07f8557469ce23787bf0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/techinfini/ReactNativeNewOne/New/React Native/eFashion UI/eFashion/android/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.0/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
+        <dex dex="/home/techinfini/ReactNativeNewOne/New/React Native/eFashion UI/eFashion/android/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.0_153d3c06ae8f5680b979a0a3d6a80faba4a403ab.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/techinfini/ReactNativeNewOne/New/React Native/eFashion UI/eFashion/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="8bc45ce1f63d1a391fd38b32a201be5a42f9c95d">
+        <dex dex="/home/techinfini/ReactNativeNewOne/New/React Native/eFashion UI/eFashion/android/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-25.0.0_4c5263f7e948d3758ff5cb7bcf2f0ecd4f3f78a1.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="/home/techinfini/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.4.1/c7c4f9e35c2fd5900da24f9872e3971801f08ce0/okhttp-3.4.1.jar"
         jumboMode="false"
         optimize="true"
@@ -39,30 +219,12 @@
     </item>
     <item
         is-multidex="false"
-        jar="/home/techinfini/ReactNativeNewOne/New/React Native/eFashion UI/eFashion/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fresco/1.0.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="cf836a435a496eb22ff2aa69aa1e619462549f81">
-        <dex dex="/home/techinfini/ReactNativeNewOne/New/React Native/eFashion UI/eFashion/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-fresco-1.0.1_fa01ce8585bad3441eda9b9c14b51fdfa869f2f6.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="/home/techinfini/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.0/5871fb60dc68d67da54a663c3fd636a10a532948/jsr305-3.0.0.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
         sha1="5871fb60dc68d67da54a663c3fd636a10a532948">
         <dex dex="/home/techinfini/ReactNativeNewOne/New/React Native/eFashion UI/eFashion/android/app/build/intermediates/pre-dexed/debug/jsr305-3.0.0_62c94f20b6a2dda69dc64fe60fbca0a074a40f69.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/techinfini/ReactNativeNewOne/New/React Native/eFashion UI/eFashion/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/libs/internal_impl-23.0.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
-        <dex dex="/home/techinfini/ReactNativeNewOne/New/React Native/eFashion UI/eFashion/android/app/build/intermediates/pre-dexed/debug/internal_impl-23.0.1_143f2f0d46d6a2d4ee1342b7fc000b455ae2b606.jar" />
     </item>
     <item
         is-multidex="false"
@@ -93,6 +255,15 @@
     </item>
     <item
         is-multidex="false"
+        jar="/home/techinfini/ReactNativeNewOne/New/React Native/eFashion UI/eFashion/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/10.2.4/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="5803db663655ef5cb38c6bcb17ba326fdb9edfbd">
+        <dex dex="/home/techinfini/ReactNativeNewOne/New/React Native/eFashion UI/eFashion/android/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-tasks-10.2.4_b864d78c97346c8b21d62de58075b9fe6bfc6bc3.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="/home/techinfini/ReactNativeNewOne/New/React Native/eFashion UI/eFashion/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/1.0.1/jars/classes.jar"
         jumboMode="false"
         optimize="true"
@@ -111,6 +282,15 @@
     </item>
     <item
         is-multidex="false"
+        jar="/home/techinfini/ReactNativeNewOne/New/React Native/eFashion UI/eFashion/android/app/build/intermediates/exploded-aar/eFashion/react-native-fbsdk/unspecified/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="a979376c85ab6df722bb58ce7fad6586bd43222c">
+        <dex dex="/home/techinfini/ReactNativeNewOne/New/React Native/eFashion UI/eFashion/android/app/build/intermediates/pre-dexed/debug/eFashion-react-native-fbsdk-unspecified_39b435a0273985913d76802c9489dc19b0cf9137.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="/home/techinfini/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp-ws/3.4.1/8ace66ef7002d98f633377c9e67daeeb196d8c3b/okhttp-ws-3.4.1.jar"
         jumboMode="false"
         optimize="true"
@@ -120,39 +300,21 @@
     </item>
     <item
         is-multidex="false"
-        jar="/home/techinfini/ReactNativeNewOne/New/React Native/eFashion UI/eFashion/android/app/build/intermediates/exploded-aar/com.facebook.fresco/drawee/1.0.1/jars/classes.jar"
+        jar="/home/techinfini/ReactNativeNewOne/New/React Native/eFashion UI/eFashion/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/10.2.4/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
-        sha1="5a61f17cd72e20aa4323cbf5f909b7c609619275">
-        <dex dex="/home/techinfini/ReactNativeNewOne/New/React Native/eFashion UI/eFashion/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-drawee-1.0.1_7ff17452b195210bc2f3d44106cc8d819b41b5b7.jar" />
+        sha1="6d0d5e86f5b7203834df01ed78ebfdd5cbf74d48">
+        <dex dex="/home/techinfini/ReactNativeNewOne/New/React Native/eFashion UI/eFashion/android/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-maps-10.2.4_01aef215517af8bd4ffb333de9d393f09b883f01.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/home/techinfini/ReactNativeNewOne/New/React Native/eFashion UI/eFashion/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/classes.jar"
+        jar="/home/techinfini/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-applinks/1.4.0/8ad21bf21784dacce5f2043afb97218cc377e835/bolts-applinks-1.4.0.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
-        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
-        <dex dex="/home/techinfini/ReactNativeNewOne/New/React Native/eFashion UI/eFashion/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-23.0.1_2452b9f3513d1c1574a57f42a8d9dd73521e8dfb.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/techinfini/Android/extras/android/m2repository/com/android/support/support-annotations/23.0.1/support-annotations-23.0.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="1fce89a6428c51467090d7f424e4c9c3dbd55f7e">
-        <dex dex="/home/techinfini/ReactNativeNewOne/New/React Native/eFashion UI/eFashion/android/app/build/intermediates/pre-dexed/debug/support-annotations-23.0.1_ac4c93dfb34bd505975569b7ae675158c9cf6f8d.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/techinfini/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-tasks/1.4.0/d85884acf6810a3bbbecb587f239005cbc846dc4/bolts-tasks-1.4.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
-        <dex dex="/home/techinfini/ReactNativeNewOne/New/React Native/eFashion UI/eFashion/android/app/build/intermediates/pre-dexed/debug/bolts-tasks-1.4.0_93d12ca6218bae4230ddd3d6cb4a5e5b10798a65.jar" />
+        sha1="8ad21bf21784dacce5f2043afb97218cc377e835">
+        <dex dex="/home/techinfini/ReactNativeNewOne/New/React Native/eFashion UI/eFashion/android/app/build/intermediates/pre-dexed/debug/bolts-applinks-1.4.0_bcd2d882e44c2242ee304da06bd5605d65ced0da.jar" />
     </item>
     <item
         is-multidex="false"
@@ -174,39 +336,75 @@
     </item>
     <item
         is-multidex="false"
-        jar="/home/techinfini/ReactNativeNewOne/New/React Native/eFashion UI/eFashion/android/app/build/intermediates/exploded-aar/com.facebook.soloader/soloader/0.1.0/jars/classes.jar"
+        jar="/home/techinfini/ReactNativeNewOne/New/React Native/eFashion UI/eFashion/android/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.0/jars/libs/internal_impl-25.0.0.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
-        sha1="8f615bca00639150c9eb6175d4b5471193f70794">
-        <dex dex="/home/techinfini/ReactNativeNewOne/New/React Native/eFashion UI/eFashion/android/app/build/intermediates/pre-dexed/debug/com.facebook.soloader-soloader-0.1.0_bfbda35c7f37b0b8cba359361e78bfa3300ee4ba.jar" />
+        sha1="3b61a70884adaf0be3fc06c70c801e3e6df13133">
+        <dex dex="/home/techinfini/ReactNativeNewOne/New/React Native/eFashion UI/eFashion/android/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.0_c2bd0fda6ecba89a2c01fbd3236b948011e6266c.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/home/techinfini/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.9.0/f824591a0016efbaeddb8300bee54832a1398cfa/okio-1.9.0.jar"
+        jar="/home/techinfini/ReactNativeNewOne/New/React Native/eFashion UI/eFashion/android/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
-        sha1="f824591a0016efbaeddb8300bee54832a1398cfa">
-        <dex dex="/home/techinfini/ReactNativeNewOne/New/React Native/eFashion UI/eFashion/android/app/build/intermediates/pre-dexed/debug/okio-1.9.0_3ec4a9637e7e87f17de084653d5b6fb0cee046d5.jar" />
+        sha1="76fb65a4b41ea42dab8a1310ed772a2420c96b52">
+        <dex dex="/home/techinfini/ReactNativeNewOne/New/React Native/eFashion UI/eFashion/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-25.0.0_476730478ebe5f5a353b24d525991a41cc62e713.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/home/techinfini/ReactNativeNewOne/New/React Native/eFashion UI/eFashion/android/app/build/intermediates/exploded-aar/eFashion/react-native-vector-icons/unspecified/jars/classes.jar"
+        jar="/home/techinfini/ReactNativeNewOne/New/React Native/eFashion UI/eFashion/android/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.0.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
-        sha1="1f32d248ec690bd1fca0677ed1ce2fcc993ec0b9">
-        <dex dex="/home/techinfini/ReactNativeNewOne/New/React Native/eFashion UI/eFashion/android/app/build/intermediates/pre-dexed/debug/eFashion-react-native-vector-icons-unspecified_9e90e5e8b4136d1d9709db61dd37d66f2fd8725d.jar" />
+        sha1="53a420cd4f49274db6bd43475f8006ba67ef6bbd">
+        <dex dex="/home/techinfini/ReactNativeNewOne/New/React Native/eFashion UI/eFashion/android/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-25.0.0_4f01692cd05d65939a761d3520c8f645677c590b.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/home/techinfini/ReactNativeNewOne/New/React Native/eFashion UI/eFashion/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/jars/classes.jar"
+        jar="/home/techinfini/ReactNativeNewOne/New/React Native/eFashion UI/eFashion/android/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
-        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
-        <dex dex="/home/techinfini/ReactNativeNewOne/New/React Native/eFashion UI/eFashion/android/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.0.1_ca440561c9bee0c842c97c05b7110c9475d62afb.jar" />
+        sha1="75b1f366ff0bbc78f8b1f7cf0dc82e7c53afef6a">
+        <dex dex="/home/techinfini/ReactNativeNewOne/New/React Native/eFashion UI/eFashion/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-compat-25.0.0_b66a8a9892ba023f9ebeab94e37665c3f5d9f920.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/techinfini/ReactNativeNewOne/New/React Native/eFashion UI/eFashion/android/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="4ccbcda5c72027c7f7c14be9ff8640d9cb0d8da0">
+        <dex dex="/home/techinfini/ReactNativeNewOne/New/React Native/eFashion UI/eFashion/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-25.0.0_12113d4755b47115f7f0cd69f784e96bbdb583be.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/techinfini/ReactNativeNewOne/New/React Native/eFashion UI/eFashion/android/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.0/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="665d21a8a069c96b4d9e8b434f5096d865b4e261">
+        <dex dex="/home/techinfini/ReactNativeNewOne/New/React Native/eFashion UI/eFashion/android/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.0_b33bed293025dc8bd4dde5b1aa5f75166f15a814.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/techinfini/ReactNativeNewOne/New/React Native/eFashion UI/eFashion/android/app/build/intermediates/exploded-aar/eFashion/react-native-maps/unspecified/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="c98011b7d2c1ad28aa39ab99584d70a501936dcf">
+        <dex dex="/home/techinfini/ReactNativeNewOne/New/React Native/eFashion UI/eFashion/android/app/build/intermediates/pre-dexed/debug/eFashion-react-native-maps-unspecified_ecdbaa5d2b20f48cc81b0db1caeb1d864e4e35cc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/techinfini/Android/extras/android/m2repository/com/android/support/support-annotations/25.0.0/support-annotations-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="a22d2cc94da87b254451fa8ed28afc30b4653773">
+        <dex dex="/home/techinfini/ReactNativeNewOne/New/React Native/eFashion UI/eFashion/android/app/build/intermediates/pre-dexed/debug/support-annotations-25.0.0_00d049d7e02ba172174a352201f483fc5b2b2ea4.jar" />
     </item>
 
 </items>

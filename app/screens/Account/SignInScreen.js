@@ -14,15 +14,43 @@ import {
   Button,
   Input
 } from './../../components/common'
+import { LoginButton, AccessToken, LoginManager } from 'react-native-fbsdk';
+
 
 export default class SignInScreen extends Component {
 
 constructor(props) {
     super(props);
 }
-
+componentDidMount(){
+    // LoginManager.logInWithReadPermissions(['public_profile']).then(
+    //     function (result) {
+    //         if (result.isCancelled) {
+    //             console.log('Login cancelled');
+    //         } else {
+    //             console.log('Login success with permissions: '
+    //                 + result.grantedPermissions.toString());
+    //         }
+    //     },
+    //     function (error) {
+    //         console.log('Login fail with error: ' + error);
+    //     }
+    // );
+}
 componentWillMount() {
-
+    // LoginManager.logInWithReadPermissions(['public_profile']).then(
+    //     function (result) {
+    //         if (result.isCancelled) {
+    //             console.log('Login cancelled');
+    //         } else {
+    //             console.log('Login success with permissions: '
+    //                 + result.grantedPermissions.toString());
+    //         }
+    //     },
+    //     function (error) {
+    //         console.log('Login fail with error: ' + error);
+    //     }
+    // );
 }
 
 render() {
@@ -33,9 +61,28 @@ render() {
                     Sign in with your social account
                 </Text>
                 <View style={styles.buttonLoginWrap}>
-                    <TouchableOpacity>
+                    {/* <TouchableOpacity>
                        <Image style={styles.buttonLoginIcon} source={require('../../resources/images/facebook.png')} />
-                    </TouchableOpacity>
+                    </TouchableOpacity> */}
+                    <LoginButton
+                        onLoginFinished={
+                            (error, result) => {
+                                if (error) {
+                                    console.log("login has error: " + result.error);
+                                } else if (result.isCancelled) {
+                                    console.log("login is cancelled.");
+                                } else {
+                                    AccessToken.getCurrentAccessToken().then(
+                                        (data) => {
+                                            console.log(result);
+                                            
+                                            console.log(data.accessToken.toString())
+                                        }
+                                    )
+                                }
+                            }
+                        }
+                        onLogoutFinished={() => console.log("logout.")} />
 
                     <TouchableOpacity>
                        <Image  style={styles.buttonLoginIcon} source={require('../../resources/images/google-plus.png')} />

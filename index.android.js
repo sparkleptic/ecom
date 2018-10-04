@@ -26,10 +26,10 @@ export default class eFashion extends Component {
       setTimeout(() => {
         LayoutAnimation.easeInEaseOut();
          this.setState({loading: false});
-      }, 3000);
+      }, 2500);
    }
    componentWillMount(){
-
+    //  this.closeActivityIndicator();
    }
    componentDidMount() {
       this.closeActivityIndicator();
@@ -42,9 +42,8 @@ export default class eFashion extends Component {
             <Image style={{ position: 'absolute', left: 0, top: 0, width: width, height: height }}
               source={require('./app/resources/images/splash.png') } />
             </View>
-            : <View />
-          }
-          <RootRouter />
+          : <RootRouter />
+          }          
       </View>
     );
   }

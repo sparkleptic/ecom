@@ -39,9 +39,11 @@ import { CartDefault, ShippingInfoModal } from './screens/Cart'
 
 
 import SignInScreen from './screens/Account/SignInScreen'
+import LiveLocation from './screens/LiveLocation/Livemap'
 import RegisterScreen from './screens/Account/RegisterScreen'
 import AccountDetail from './screens/Account/AccountDetail'
 import SideMenuDrawer from './screens/SideMenuDrawer'
+import Checkout from './screens/Checkout/Checkout'
 
 //import TabIcon from './components/common/TabIcon'
 
@@ -221,6 +223,7 @@ export default class RootRouter extends React.Component {
                                                 leftButtonIconStyle={{ tintColor: 'white' }}
                                                 iconName="user"
                                                 hideNavBar={true}
+                                                component={LiveLocation}
                                                 navigationBarStyle={{
                                                         flex: 1,
                                                         borderBottomWidth: 0,
@@ -229,12 +232,12 @@ export default class RootRouter extends React.Component {
                                                         height: 0
                                                 }}
                                         >
-                                                <Scene key="MyAccountTabView"
-                                                        component={SignInScreen}
+                                                {/* <Scene key="MyAccountTabView"
+                                                        component={LiveLocation}
                                                         icon={TabIcon}
                                                         title="Account"
                                                         iconName="user"
-                                                />
+                                                /> */}
                                         </Scene>
                                 </Scene>
                                 <Scene key="SearchPage"
@@ -243,6 +246,14 @@ export default class RootRouter extends React.Component {
                                         animation={"fade"}
                                         duration={0}
                                         navBar={SearchBoxWithBackBtn}
+                                />
+                                <Scene key="Checkout"
+                                        component={Checkout}
+                                        hideTabBar={false}
+                                        title="Ronda Rochell Checkout"
+                                        animation={"fade"}
+                                        duration={0}
+                                        navBar={HeaderNew}
                                 />
                                 <Scene key="SideMenuDrawer"
                                         component={SideMenuDrawer}

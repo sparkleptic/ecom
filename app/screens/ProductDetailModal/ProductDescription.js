@@ -107,25 +107,6 @@ export default class ProductDescription extends Component {
     return final_request_uri_str;
   }
   addToCart(data_pro) {
-    // console.log(data);
-    // // AsyncStorage.setItem('data', JSON.stringify(data));
-
-
-
-    // AsyncStorage.getItem('data') != null ?
-    //   AsyncStorage.mergeItem('data', JSON.stringify(data), () => {
-    //     AsyncStorage.getItem('data', (err, result) => {
-    //       console.log(result);
-    //     });
-    //   })
-    // :
-    //   AsyncStorage.setItem('data', JSON.stringify(data), () => {
-    //     AsyncStorage.getItem('data', (err, result) => {
-    //       console.log(result);
-    //     });
-    //   });
-    // console.log(data_pro.id);
-
     data = {
       quantity: '1',
       id: data_pro.id,
@@ -136,7 +117,7 @@ export default class ProductDescription extends Component {
 
 
     if ((this.state.demoAsync !== null) && (this.state.demoAsync !== '') && this.state.demoAsync.length > 0) {
-      alert('if');
+      alert('Added to cart');
 
       let arrdemo = new Array()
       let pushdemo = arrdemo.push(data)
@@ -155,17 +136,17 @@ export default class ProductDescription extends Component {
       console.log(finalArray)
       AsyncStorage.setItem('productsCart_N', JSON.stringify(finalArray));
     } else {
-      alert('else');
+      alert('Added to cart');
       let arrdemo = new Array()
       let pushdemo = arrdemo.push(data)
       AsyncStorage.setItem('productsCart_N', JSON.stringify(arrdemo));
     }
 
     // this.state.navigate.navigate('CartPage')
-
-
   }
-
+  chooseColor(){
+    alert('Working');
+  }
   render() {
 
     const {
@@ -216,11 +197,13 @@ export default class ProductDescription extends Component {
             buttonNameStyle={{ color: '#bbb', fontWeight: 'bold' }}
             buttonStyle={{ height: 40, borderColor: '#ccc', borderWidth: 1 }}
             buttonContainerStyle={{ padding: 10 }}
+            onPress={() => this.chooseColor()}
           />
           <Button buttonName="CHOOSE SIZE"
             buttonNameStyle={{ color: '#bbb', fontWeight: 'bold' }}
             buttonStyle={{ height: 40, borderColor: '#ccc', borderWidth: 1 }}
             buttonContainerStyle={{ padding: 10 }}
+            onPress={() => this.chooseColor()}
           />
           <List containerStyle={{ marginLeft: 10, marginRight: 10, padding: 0, borderTopWidth: 1, borderColor: '#eee', borderBottomWidth: 0 }}>
             {
@@ -229,7 +212,7 @@ export default class ProductDescription extends Component {
                   key={i}
                   title={l.name}
                   titleStyle={{ fontSize: 16 }}
-                  onPress={() => console.log('Pressed')}
+                  onPress={() => this.chooseColor()}
                 />
               ))
             }
